@@ -1,6 +1,6 @@
 const {MongoClient} = require('mongodb')
 const config = {
-    url: 'mongodb+srv://db_test_user:hlm2543V@cluster-test.q4jsk.gcp.mongodb.net/test_data?retryWrites=true&w=majority'
+    url: 'MONGO_CONNECTION_HERE'
 };
 
 module.exports = () => new Promise((resolve,reject) =>{
